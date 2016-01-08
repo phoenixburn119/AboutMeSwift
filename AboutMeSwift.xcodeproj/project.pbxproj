@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F572DF241C403F2D007A06AC /* ComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DF231C403F2D007A06AC /* ComputerViewController.swift */; };
+		F572DF261C403F3C007A06AC /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DF251C403F3C007A06AC /* JobViewController.swift */; };
+		F572DF281C403F4B007A06AC /* WhereImFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DF271C403F4B007A06AC /* WhereImFromViewController.swift */; };
+		F572DF2A1C403F5B007A06AC /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DF291C403F5B007A06AC /* CarViewController.swift */; };
 		F5C8BECC1C3D99B70018FA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8BECB1C3D99B70018FA48 /* AppDelegate.swift */; };
 		F5C8BECE1C3D99B70018FA48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8BECD1C3D99B70018FA48 /* ViewController.swift */; };
 		F5C8BED11C3D99B70018FA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C8BECF1C3D99B70018FA48 /* Main.storyboard */; };
 		F5C8BED31C3D99B70018FA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C8BED21C3D99B70018FA48 /* Assets.xcassets */; };
 		F5C8BED61C3D99B70018FA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C8BED41C3D99B70018FA48 /* LaunchScreen.storyboard */; };
 		F5C8BEE11C3D99B70018FA48 /* AboutMeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8BEE01C3D99B70018FA48 /* AboutMeSwiftTests.swift */; };
+		F5C8BEF61C3DB2D50018FA48 /* CSGOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8BEF51C3DB2D50018FA48 /* CSGOViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F572DF231C403F2D007A06AC /* ComputerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerViewController.swift; sourceTree = "<group>"; };
+		F572DF251C403F3C007A06AC /* JobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+		F572DF271C403F4B007A06AC /* WhereImFromViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereImFromViewController.swift; sourceTree = "<group>"; };
+		F572DF291C403F5B007A06AC /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
 		F5C8BEC81C3D99B70018FA48 /* AboutMeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C8BECB1C3D99B70018FA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C8BECD1C3D99B70018FA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		F5C8BEDC1C3D99B70018FA48 /* AboutMeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C8BEE01C3D99B70018FA48 /* AboutMeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeSwiftTests.swift; sourceTree = "<group>"; };
 		F5C8BEE21C3D99B70018FA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C8BEF51C3DB2D50018FA48 /* CSGOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSGOViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +87,8 @@
 		F5C8BECA1C3D99B70018FA48 /* AboutMeSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F5C8BECB1C3D99B70018FA48 /* AppDelegate.swift */,
-				F5C8BECD1C3D99B70018FA48 /* ViewController.swift */,
-				F5C8BECF1C3D99B70018FA48 /* Main.storyboard */,
-				F5C8BED21C3D99B70018FA48 /* Assets.xcassets */,
+				F5C8BEEC1C3D9B650018FA48 /* View */,
+				F5C8BEEB1C3D9B5B0018FA48 /* Controller */,
 				F5C8BED41C3D99B70018FA48 /* LaunchScreen.storyboard */,
 				F5C8BED71C3D99B70018FA48 /* Info.plist */,
 			);
@@ -94,6 +102,29 @@
 				F5C8BEE21C3D99B70018FA48 /* Info.plist */,
 			);
 			path = AboutMeSwiftTests;
+			sourceTree = "<group>";
+		};
+		F5C8BEEB1C3D9B5B0018FA48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8BECB1C3D99B70018FA48 /* AppDelegate.swift */,
+				F5C8BECD1C3D99B70018FA48 /* ViewController.swift */,
+				F5C8BEF51C3DB2D50018FA48 /* CSGOViewController.swift */,
+				F572DF231C403F2D007A06AC /* ComputerViewController.swift */,
+				F572DF251C403F3C007A06AC /* JobViewController.swift */,
+				F572DF271C403F4B007A06AC /* WhereImFromViewController.swift */,
+				F572DF291C403F5B007A06AC /* CarViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F5C8BEEC1C3D9B650018FA48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8BED21C3D99B70018FA48 /* Assets.xcassets */,
+				F5C8BECF1C3D99B70018FA48 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +229,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C8BECE1C3D99B70018FA48 /* ViewController.swift in Sources */,
+				F572DF261C403F3C007A06AC /* JobViewController.swift in Sources */,
 				F5C8BECC1C3D99B70018FA48 /* AppDelegate.swift in Sources */,
+				F572DF281C403F4B007A06AC /* WhereImFromViewController.swift in Sources */,
+				F572DF241C403F2D007A06AC /* ComputerViewController.swift in Sources */,
+				F572DF2A1C403F5B007A06AC /* CarViewController.swift in Sources */,
+				F5C8BEF61C3DB2D50018FA48 /* CSGOViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +424,7 @@
 				F5C8BEE71C3D99B70018FA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C8BEE81C3D99B70018FA48 /* Build configuration list for PBXNativeTarget "AboutMeSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +433,7 @@
 				F5C8BEEA1C3D99B70018FA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
